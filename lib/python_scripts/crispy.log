@@ -1,0 +1,30 @@
+2020-08-03 10:22:01,868 - /Users/michaelgraham/apps/crispy_public/lib/python_scripts/crispy.py - INFO - crispy.py running
+2020-08-03 10:22:01,874 - /Users/michaelgraham/apps/crispy_public/lib/python_scripts/crispy.py - INFO - 
+  crispy.py job information:
+	Gene (Systematic Name): cysD_ZMO1_ZMO0005
+	Gene (Standard Name)  : cysD_ZMO1_ZMO0005
+	Chromosome            : ZM4
+	Start-Stop Positions  : 5781-6689
+	Strand                : -
+	PAM sequence          : NNAGAAW
+	PAM Orientation       : 3
+	Spacer Length         : 20
+	Strains               : ZYMOMONAS
+	Target                : gene
+	Project               : ZYMOMONAS
+
+2020-08-03 10:22:01,903 - variantGene - INFO - 
+	Reference: /Users/michaelgraham/apps/crispy_public/lib/reference/ZYMOMONAS.fasta
+	GFF file : /Users/michaelgraham/apps/crispy_public/lib/reference/ZYMOMONAS.gff
+	VCF file : ZYMOMONAS-none.gz
+	Sample   : ZYMOMONAS
+	Gene name: cysD_ZMO1_ZMO0005
+	position : ZM4:5781-6689
+	Strand   : -
+	Window   : 0
+
+2020-08-03 10:22:03,360 - /Users/michaelgraham/apps/crispy_public/lib/python_scripts/crispy.py - INFO - crispy.py sgRNAScorer command 
+python /Users/michaelgraham/apps/crispy_public/lib/python_scripts/identifyAndScore.py -i /Users/michaelgraham/apps/crispy_public/lib/genes/cysD_ZMO1_ZMO0005/ZYMOMONAS-cysD_ZMO1_ZMO0005.fasta -o /Users/michaelgraham/apps/crispy_public/lib/python_scripts/tmp/cysD_ZMO1_ZMO0005-16-sgRNA.txt -p 3 -l NNAGAAW -s 20
+2020-08-03 10:22:03,484 - /Users/michaelgraham/apps/crispy_public/lib/python_scripts/crispy.py - INFO - findOffSiteTarget cas-offinder /Users/michaelgraham/apps/crispy_public/lib/python_scripts/tmp/cas-in-16.txt C /Users/michaelgraham/apps/crispy_public/lib/python_scripts/tmp/cysD_ZMO1_ZMO0005-16-offinder.txt
+2020-08-03 10:22:03,485 - /Users/michaelgraham/apps/crispy_public/lib/python_scripts/crispy.py - INFO -  checkIntron() Not Present 
+2020-08-03 10:22:03,485 - /Users/michaelgraham/apps/crispy_public/lib/python_scripts/crispy.py - INFO - Program Complete!
